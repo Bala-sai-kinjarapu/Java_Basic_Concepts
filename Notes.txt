@@ -1,0 +1,34 @@
+// we can only access the abstract class methods and variables only by extending the abstract class.
+// we can not create an object for any abstract class.
+// program
+
+abstract class Sweetshop{
+    void greeting(){
+        System.out.println("hello");
+    }
+}
+
+// in order to access the greeting method in main class ,we have to extend the class.
+public class Main extends Sweetshop{
+    Main mn = new Main();
+    mn.greeting(); // it will print hello.
+} 
+
+
+////////////////////////////////////
+// Exception handling :
+// we can handle checked exceptions but not un checked exceptions.
+// we will do it by using // try,catch,finally blocks;
+// in try block we sill write the code that will throw an error;
+//..int ccatch block we will catch the exception that is thrown in the try block.
+//.. finally block will be execuited even the exception is thrown or nt thrown.
+// one try block can have meny catch blocks.
+// the key word is Exception , throw , throws
+
+/*
+    try{
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        div=a/b;
+    }
+    catch(Exception e){}

@@ -1,0 +1,19 @@
+/*  
+    int age=sc.nextInt();
+    String name= sc.nextLine();
+
+    println(name);
+    println(age);
+*/
+
+// if we tru to exicuite this code the following will be happend.
+    // we give an integer input and then press the enter button
+    // when we press the enter button the programe will read '\n' character and will be read into 'name' variable
+    // so that when we want to print the name and age it only prints the aGE VARIABLE.
+    //to tackle this problem we have to use a dummy input stmt.
+// the code will be
+/*
+    int age=sc.nextInt();
+    sc.nextLine();
+    String name=sc.nextLine();
+*/
